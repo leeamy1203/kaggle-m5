@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  jupyter-notebook:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ".:/home/ngs"
+    ports:
+      - "${JUPYTER_PORT:-8888}:8888"
