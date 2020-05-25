@@ -1,7 +1,0 @@
-md5: 3412ecf93a716803e2c8af709c1be0f3
-outs:
-- md5: 08c591caa99e55daf3e0ccac913f7c85
-  path: sell_prices.csv
-  cache: true
-  metric: false
-  persist: false
